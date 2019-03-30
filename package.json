@@ -1,0 +1,34 @@
+{
+  "name": "r",
+  "version": "1.0.0",
+  "description": "",
+  "main": "playstore.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node playstoreServerListen",
+    "dev": "nodemon playstoreServerListen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickmtza/Express-server-assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erickmtza/Express-server-assignment/issues"
+  },
+  "homepage": "https://github.com/erickmtza/Express-server-assignment#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "nodemon": "^1.18.10",
+    "supertest": "^4.0.2"
+  }
+}
